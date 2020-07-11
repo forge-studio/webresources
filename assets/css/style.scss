@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.one {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+}
