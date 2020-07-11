@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.one {
+  background-color: blue;
+  color: white;
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
+.group:hover .group-hover\:block {
+  display: block !important;
+}
