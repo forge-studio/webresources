@@ -32,16 +32,3 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         
-- name: gsheet.action
-  uses: jroehl/gsheet.action@v1.1.0
-  with:
-    # The id of the spreadsheet to use
-    spreadsheetId: 
-    # 'The commands and arguments to use as an array - must be a valid json string
-e.g.
-[
-  { "command": "addWorksheet", "args": { "worksheetTitle": "test" }},
-  { "command": "updateData", "args": { "data": [["A1", "A2", "A3"]] }}
-]'
-
-    commands:         
