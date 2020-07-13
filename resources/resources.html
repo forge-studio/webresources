@@ -1,0 +1,218 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live | Resources </title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="https://tailwindcss.com/assets/build/css/main.css?id=b857d3ece6e49ca8fdf8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css">
+  <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css”> </head>
+    <body data-sidebar-visible="true" class="text-gray-900 leading-normal">
+  <div>
+    <div id="header">
+      <div class="flex bg-white border-b border-gray-200 fixed top-0 inset-x-0 z-100 h-16 items-center">
+        <div class="w-full max-w-screen-xl relative mx-auto px-6">
+          <div class="flex items-center -mx-6">
+
+
+            <div class="lg:w-1/4 xl:w-1/5 pl-6 pr-6 lg:pr-8">
+              <div class="flex items-center">
+                <a href="/" class=" absolute block lg:mr-4">
+                  <ion-icon name="logo-ionic" size='large' class="text-blue-600 text-base pt-3"></ion-icon>
+                  <span class="pt-0"> Dev Resources</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-grow lg:w-3/4 xl:w-4/5">
+
+
+              <div class="w-full lg:px-6 xl:w-3/4 xl:px-12">
+                <div class="relative">
+                  <input id="docsearch"
+                    class="transition focus:outline-0 border border-transparent focus:bg-white focus:border-gray-300 placeholder-gray-600 rounded-lg bg-gray-200 py-2 pr-4 pl-10 block w-full appearance-none leading-normal"
+                    type="text" placeholder="Search the docs (Press &quot;/&quot; to focus)">
+                  <div class="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
+                    <svg class="fill-current pointer-events-none text-gray-600 w-4 h-4"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path
+                        d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+
+              <button type="button" id="sidebar-open"
+                class="flex px-6 items-center lg:hidden text-gray-500 focus:outline-none focus:text-gray-700">
+                <svg class="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
+              </button>
+
+
+              <button type="button" id="sidebar-close"
+                class="hidden flex px-6 items-center lg:hidden text-gray-500 focus:outline-none focus:text-gray-700">
+                <svg class="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path
+                    d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+                </svg>
+              </button>
+
+
+              <div class="hidden lg:flex lg:items-center lg:justify-between xl:w-1/4 px-6">
+                <div class="relative mr-4">
+                  <select data-version-switcher
+                    class="appearance-none block bg-white pl-2 pr-8 py-1 text-gray-500 font-medium text-base focus:outline-none focus:text-gray-800">
+                    <option value="v1">Last Updated : Today</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="w-full max-w-screen-xl mx-auto px-6">
+    <div class="lg:flex -mx-6">
+
+
+      <div id="sidebar"
+        class="hidden fixed inset-0 pt-16 h-full bg-white z-90 w-full border-b -mb-16 lg:-mb-0 lg:static lg:h-auto lg:overflow-y-visible lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5">
+
+        <div id="navWrapper"
+          class="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:relative lg:sticky lg:top-16 bg-white lg:bg-transparent">
+          <div id="navGradient" class="hidden"></div>
+          <nav id="nav"
+            class="px-6 pt-6 overflow-y-auto text-base lg:text-sm lg:py-12 lg:pl-6 lg:pr-8 sticky?lg:h-(screen-16)">
+            <div class="relative -mx-2 w-24 mb-8 lg:hidden">
+              <select data-version-switcher
+                class="appearance-none block bg-white pl-2 pr-8 py-1 text-gray-500 font-medium text-base focus:outline-none focus:text-gray-800">
+                <option value="v1">Last Updated : Today</option>
+              </select>
+
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
+              </div>
+            </div>
+            <div class="mb-10">
+              <a href="/docs/installation"
+                class="flex items-center px-2 -mx-2 py-1 hover:text-gray-900 font-medium text-gray-900">
+
+                <span class="jam jam-backpack">hi</span>
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path class="text-gray-400 fill-current"
+                    d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z" />
+                  <path class="text-gray-700 fill-current"
+                    d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z" />
+                </svg>
+                <span class="ml-3 jam jam-airbnb">Documentation</span>
+                <i class="fi fi-twitter"> dsf<i>
+              </a>
+
+
+            </div>
+
+          </nav>
+        </div>
+      </div>
+
+
+
+      <div id="content-wrapper" class="min-h-screen  lg:static lg:max-h-full lg:overflow-visible ">
+        <div id="content">
+          <div id="app" class="flex" v-cloak>
+            <div class="pt-24 pb-16 lg:pt-28 w-full">
+              <div class="markdown mb-6 px-6 max-w-3xl mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:px-12  lg:w-3/4 lg:block lg:border-0 xl:w-4/5">
+
+                <h1>Design Resources</h1>
+              </div>
+              <div class="flex">
+                <div class="markdown px-6 xl:px-12 w-full max-w-3xl mx-auto lg:ml-0 lg:mr-auto xl:mx-0 xl:w-99/100">
+
+                  <table class="table-auto">
+                    <thead>
+                      <tr>
+                        <th class="px-4 py-2">Platform</th>
+                        <th class="px-4 py-2">Description</th>
+                        <th class="px-4 py-2">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody id="resources-data">
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <script src="/assets/build/js/app.js?id=1e8b8bb8f7cf61060e08"></script>
+
+          <!-- Algolia DocSearch  -->
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+          <script type="text/javascript">
+            docsearch({
+              apiKey: '3df93446658cd9c4e314d4c02a052188',
+              indexName: 'tailwindcss',
+              inputSelector: '#docsearch',
+              algoliaOptions: {
+                'facetFilters': ["version:v1"]
+              },
+            });
+          </script>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script>
+        fetch('https://api.sheetson.com/v1/sheets/design?spreadsheetId=1_ArJuQAjviqZjRULc8NqOZ_f9gC-qmGKRmy9JIZYtew')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (resourcesdata) {
+                let html = '';
+
+                resourcesdata.results.forEach(function (resourcesdata) {
+                    html += `
+                    <tr>
+                        <td class="border px-4 py-2"><a target="_blank" href="${resourcesdata.url}" class="block "> ${resourcesdata.platform} <ion-icon class="text-base text-blue-800" name="open-outline"></ion-icon> </a></td>
+                        <td class="border px-4 py-2">${resourcesdata.description}</td>
+                        <td class="border px-4 py-2"><span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">${resourcesdata.status}</span></td>
+                      </tr>       
+       
+        `;
+                });
+                document.getElementById('resources-data').innerHTML = html;
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+    </script>
+  <script src="https://tailwindcss.com/assets/build/js/nav.js?id=b3eb7d558e0420f9b29c" defer></script>
+  <script src="https://tailwindcss.com/assets/build/js/app.js?id=1e8b8bb8f7cf61060e08" defer></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+  </body>
+
+</html>
