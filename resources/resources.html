@@ -147,7 +147,7 @@
                       </tr>
                     </thead>
                     <tbody id="resources-data">
-                      
+
                     </tbody>
                   </table>
                 </div>
@@ -183,35 +183,35 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script>
-        fetch('https://api.sheetson.com/v1/sheets/design?spreadsheetId=1_ArJuQAjviqZjRULc8NqOZ_f9gC-qmGKRmy9JIZYtew')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (resourcesdata) {
-                let html = '';
+      <script>
+          fetch('https://gson.fayazara.now.sh/?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vTSEzwXA9zgKtxb0iG8gaziFEB4a8NpxudMIAc_RSX1io_65BeOvukMQxCf-vxZ9PtNeubgAeoC8QqX/pub?output=csv')
+              .then(function (response) {
+                  return response.json();
+              })
+              .then(function (resourcesdata) {
+                  let html = '';
 
-                resourcesdata.results.forEach(function (resourcesdata) {
-                    html += `
-                    <tr>
-                        <td class="border px-4 py-2"><a target="_blank" href="${resourcesdata.url}" class="block "> ${resourcesdata.platform} <ion-icon class="text-base text-blue-800" name="open-outline"></ion-icon> </a></td>
-                        <td class="border px-4 py-2">${resourcesdata.description}</td>
-                        <td class="border px-4 py-2"><span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">${resourcesdata.status}</span></td>
-                      </tr>       
-       
-        `;
-                });
-                document.getElementById('resources-data').innerHTML = html;
-            })
-            .catch(function (error) {
-                console.log(error);
-            })
-    </script>
-  <script src="https://tailwindcss.com/assets/build/js/nav.js?id=b3eb7d558e0420f9b29c" defer></script>
-  <script src="https://tailwindcss.com/assets/build/js/app.js?id=1e8b8bb8f7cf61060e08" defer></script>
-  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+                  resourcesdata.forEach(function (resourcesdata) {
+                      html += `
+                      <tr>
+                          <td class="border px-4 py-2"><a target="_blank" href="${resourcesdata.url}" class="block "> ${resourcesdata.platform} <ion-icon class="text-base text-blue-800" name="open-outline"></ion-icon> </a></td>
+                          <td class="border px-4 py-2">${resourcesdata.description}</td>
+                          <td class="border px-4 py-2"><span class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2">${resourcesdata.status}</span></td>
+                        </tr>
+
+          `;
+                  });
+                  document.getElementById('resources-data').innerHTML = html;
+              })
+              .catch(function (error) {
+                  console.log(error);
+              })
+      </script>
+    <script src="https://tailwindcss.com/assets/build/js/nav.js?id=b3eb7d558e0420f9b29c" defer></script>
+    <script src="https://tailwindcss.com/assets/build/js/app.js?id=1e8b8bb8f7cf61060e08" defer></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
   </body>
 
