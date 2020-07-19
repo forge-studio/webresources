@@ -1,6 +1,6 @@
 // preloader of page
 $(window).load(function () {
-    $(".se-pre-con").fadeOut('slow');;
+    $(".se-pre-con").delay(2500).fadeOut("slow");
 });
 
 // sidebar Load
