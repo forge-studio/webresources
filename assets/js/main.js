@@ -26,7 +26,7 @@ $(function () {
     var str = top.substring(0, top.indexOf('.'));
     var res = str.split("-").join(' ');
     res = res.capitalizeWords();
-    document.title = (res + " | Resosurces");
+    document.title = (res + " | Resosurces | All About Free Resources On Internet");
     document.getElementById("page-heading").innerHTML = res;
 });
 
