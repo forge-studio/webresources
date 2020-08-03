@@ -33,6 +33,7 @@ A quick look at the top-level files and directories you'll see in this project.
 │   │   ├── style.css
 │   │   ├── style.css.map
 │   │   └── style.scss
+│   ├── csv
 │   ├── favicons
 │   │   └── fav-icon.png
 │   ├── img
@@ -47,12 +48,18 @@ A quick look at the top-level files and directories you'll see in this project.
 │       └── main.js
 ├── CNAME
 ├── color-pickers.html
+├── css-frameworks.html
 ├── design-and-graphics.html
 ├── favicons.html
 ├── header.html
+├── html-and-css-templates.html
 ├── icons.html
 ├── illustrations.html
+├── image-editors.html
+├── image-optimizer.html
 ├── index.html
+├── invoices.html
+├── js-animations.html
 ├── learn.html
 ├── LICENSE
 ├── others.html
@@ -61,10 +68,15 @@ A quick look at the top-level files and directories you'll see in this project.
 ├── react.html
 ├── README.md
 ├── scalable-vector-graphics.html
+├── search-engine-optimization.html
 ├── sidebar.html
+├── stock-photography.html
+├── stock-video.html
 ├── tailwind.config.js
 ├── tailwindcss-framework.html
+├── typography-and-fonts.html
 └── vue.html
+
 
 ```
 
@@ -80,7 +92,7 @@ Want to add a new category in the project then :
 3. Rename the file in small letters spearted by hyphen ( - ) if the category name is having more than one word.
 4. **No need to change title or anything in the duplicated file, every thing will be added automatically through the JS with the help of filename itself.**
 5. Go to sidebar.html file and add with proper icon with it. Get the icon list <a href="https://ionicons.com/">here</a>.
-6. Submit the category's resources on this <a href="https://forms.gle/f2F89yQqj33Gt7gg6">link</a> and it will be updated in some time after review.
+6. Submit the category's resources on this <a href="https://forms.gle/f2F89yQqj33Gt7gg6">link</a> and it will be updated in some time after review. **OR** submit a CSV file with the PR in assets/csv/your-github-username.csv and it will be merged and updated upon verification.
 7. Create a pull request and submit it.
 
 ### :pencil: Contribute Design
